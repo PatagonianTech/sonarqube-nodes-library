@@ -6,11 +6,24 @@ No changes were made to the code. This is here to have our own internal copy of 
 ## How to Upgrade the repo?
 
 ```bash
+# Add remote
 git remote add original git@github.com:americanexpress/nodes.git
+
+# Update remote
 git remote update
+
+# Work from our `master`
 git checkout master
+git checkout -b master-upgrade
+
 git merge original/master
-git push origin
+git push origin master-upgrade
+
+# Show differences
+git diff master
+
+# Create a Pull request on GitHub...
+# Merge if all is ok...
 ```
 
 ## How to use
