@@ -3,6 +3,16 @@ This repository is just a clone of [nodes.0.5.0.jar](https://github.com/american
 
 No changes were made to the code. This is here to have our own internal copy of the code.
 
+## How to Upgrade the repo?
+
+```bash
+git remote add original git@github.com:americanexpress/nodes.git
+git remote update
+git checkout master
+git merge original/master
+git push origin
+```
+
 ## How to use
 - Install java 17. Recommended distribution is [Temurin](https://adoptium.net/temurin/releases/)
 - The easiest way is to use a java IDE (Eclipse or IntelliJ) and open the project and use the IDE tools to generate the jar file. The specific command you need to launch (with or without and IDE) is "maven install" and that will generate the jar file.
