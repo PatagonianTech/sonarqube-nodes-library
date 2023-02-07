@@ -1,4 +1,14 @@
-# Nodes
+# Nodes library for sonar
+This repository is just a clone of [nodes.0.5.0.jar](https://github.com/americanexpress/nodes), specifically from [this commit](https://github.com/americanexpress/nodes/commit/9bc0d442e67248d0899429ae8548340c055ee50f)
+
+No changes were made to the code. This is here to have our own internal copy of the code.
+
+## How to use
+- Install java 17. Recommended distribution is [Temurin](https://adoptium.net/temurin/releases/)
+- The easiest way is to use a java IDE (Eclipse or IntelliJ) and open the project and use the IDE tools to generate the jar file. The specific command you need to launch (with or without and IDE) is "maven install" and that will generate the jar file.
+- Below is the original readme.md contents of the project.
+
+## Nodes
 > A GraphQL JVM Client - Java, Kotlin, Scala, etc.
 
 [![Build Status](https://travis-ci.org/americanexpress/nodes.svg)](https://travis-ci.org/americanexpress/nodes)
