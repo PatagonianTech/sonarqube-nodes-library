@@ -1,7 +1,7 @@
 # Nodes library for sonar
 This repository is just a clone of [nodes.0.5.0.jar](https://github.com/americanexpress/nodes), specifically from [this commit](https://github.com/americanexpress/nodes/commit/9bc0d442e67248d0899429ae8548340c055ee50f)
 
-No changes were made to the code. This is here to have our own internal copy of the code.
+No changes were made to the code. This is here just to have our own copy of the code.
 
 ## How to Upgrade the repo?
 
